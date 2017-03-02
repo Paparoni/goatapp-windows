@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <title>Goat TV</title>
+    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="vierport" content="width=device-width"/>
+    <link href="estilos.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <nav>
+      <ul class="menu">
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="live.html">Live</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  
+  <header>
+    <div id="mobile-nav"></div>
+  </header>
+  <article>
+    <div id="video"></div>
+  </article>
+  <script>
+	prg_width = window.innerWidth
+	global_width = prg_width - 75
+	prg_height = window.innerHeight
+	global_height = prg_height - 75
+    $("#video").html("<center><iframe id=\"tv\" src=\"https://app.viloud.tv/player/embed/channel/e05983061b2d05a50d582c3d6355bde8?autoplay=1&volume=1&random=0&controls=1&title=1&share=0\" width="+global_width+" height="+global_height+" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>")
+  </script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="mostrar_nav.js"></script>
+  </body>
+
+</html>
