@@ -9,7 +9,10 @@
     <meta charset="utf-8"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <meta name="vierport" content="width=device-width"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="estilos.css" rel="stylesheet"/>
+    <link href="goatplayer.css" rel="stylesheet"/>
   </head>
   <body>
     
@@ -25,15 +28,24 @@
     <div id="mobile-nav"></div>
   </header>
   <article>
-    <div id="video"></div>
+    <center>
+    <div id="video" align="center">
+      
+    </div>
+    <center>
+
+    </center>
+    </center>
   </article>
   <script>
 	prg_width = window.innerWidth
 	global_width = prg_width - 75
 	prg_height = window.innerHeight
 	global_height = prg_height - 75
-    $("#video").html("<center><iframe id=\"video\" style=\"width: 1280px; height: 720px;   display: block; position: absolute; left: 50%; -webkit-transform: translate(-50%, 0); \"src=\"\/\/app.viloud.tv\/player\/embed\/channel\/e05983061b2d05a50d582c3d6355bde8?autoplay=1&volume=1&random=0&controls=1&title=1&share=0\"><\/iframe><iframe id=\"video-overlay\" style=\"width: 1280px; height: 720px; display: block;    position: absolute;    left: 50%; -webkit-transform: translate(-50%, 0); \" src=\"https:\/\/streamjar.tv\/overlay\/ajthegoatyall\/1a85c23b6aa8cfe9ba2be3b6d0fd6963\/1\"><\/iframe>")
+
+    $("#video").html("<center><iframe id=\"video\" style=\"width: 1280px; height: 720px;   display: block; position: absolute; left: 10%; -webkit-transform: translate(-10%, 0); \"src=\"http://app.viloud.tv/player/embed/channel/e05983061b2d05a50d582c3d6355bde8?autoplay=1&volume=1&random=0&controls=1&title=1&share=0\"></iframe><iframe id=\"video-overlay\" style=\"width: 1280px; height: 720px; display: block;    position: absolute;    left: 10%; -webkit-transform: translate(-10%, 0); \" src=\"https://streamjar.tv/overlay/ajthegoatyall/1a85c23b6aa8cfe9ba2be3b6d0fd6963/1\"></iframe></center>")
   </script>
+  
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="mostrar_nav.js"></script>
   </body>
