@@ -2,7 +2,7 @@
 A responsive windows app for streaming 24/7 cartoons created with JavaScript, HTML, CSS, and Shell.
 
 # Download
-[![Foo](http://piano-tuner.org/wp-content/uploads/2015/07/WindowsDownloadBadge.png)](https://github.com/Heark/goatapp-windows/releases/download/v1.0.1-beta/GoatTV.exe)
+[![Foo](http://piano-tuner.org/wp-content/uploads/2015/07/WindowsDownloadBadge.png)](https://github.com/Heark/goatapp-windows/releases/download/v1.6.1-beta/GoatTV.exe)
 
 # Modifying
 * Read & understand license.
