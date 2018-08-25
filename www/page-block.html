@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>GoatTV Live Cartoons</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/header-basic.css">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+</head>
+
+	<body>
+
+		<header class="header-basic">
+
+			<div class="header-limiter">
+
+				<h1><a href="http://goattv.ml/live.php">Goat<span>TV</span></a></h1>
+
+				<nav>
+					<a href="http://goattv.ml/index.php">Forums</a>
+					<a href="https://github.com/Paparoni/goatapp-windows">Github</a>
+				</nav>
+			</div>
+
+		</header>
+
+	   {$headerinclude}
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main_block {
+        display: block;
+        width: 100%;
+		height: 100%;
+        font-size: 0;
+    }
+
+    #left_frame {
+        width: 360px;
+    }
+
+    #right_frame {
+        width: 1100px;
+    }
+
+    #left_frame,
+    #right_frame {
+        overflow: hidden display: inline-block;
+        box-sizing: border-box;
+        height: calc(100vh - 100px);
+    }
+</style>
+<body>
+	<div id="main_block" align="center">
+	    <iframe id="left_frame" width="360" height="720" id="goattvlive" src="https://www.twitch.tv/embed/goattvlive/chat?darkpopout" frameborder="0" allowfullscreen scrolling="no"></iframe>
+    <iframe id="right_frame" src="https://paparoni.github.io/goatapp/embedded/web-version.html" frameBorder="0" scrolling="no" allow='autoplay' allowfullscreen></iframe>
+</div>
+<script type="text/javascript">
+   ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"goattv","width":728,"height":90,"sid":"Chitika Default"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+</script>
+<script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+	
+<script type="text/javascript" src="//sa.entireweb.com/sense2.js"></script>
+<script type="text/javascript">
+var infolinks_pid = 3043556;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script></body>
+</html>
