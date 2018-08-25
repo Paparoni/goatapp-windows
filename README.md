@@ -1,4 +1,4 @@
-# Goat TV Windows App
+# Goat TV
 Created by: Antwaun Tune<br/> 
 Email: <tuneantwaun@gmail.com><br/>
 Computer Science Student
